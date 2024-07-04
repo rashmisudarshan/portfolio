@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/rashmisudarshan.github.io/static/css/main.c365ab56.css",
-    "main.js": "/rashmisudarshan.github.io/static/js/main.e554785c.js",
-    "static/media/BG-Effect.png": "/rashmisudarshan.github.io/static/media/BG-Effect.bf395e03c1838c306a34.png",
-    "static/media/projects.svg": "/rashmisudarshan.github.io/static/media/projects.34bf87d206ef0aa50e8ef386638a0eb1.svg",
-    "static/media/reviews.svg": "/rashmisudarshan.github.io/static/media/reviews.347067bcb901829c2843b0eed5cf3898.svg",
-    "static/media/gallery.svg": "/rashmisudarshan.github.io/static/media/gallery.4b2e26b4f738b880fd73f33850888243.svg",
-    "index.html": "/rashmisudarshan.github.io/index.html",
-    "main.c365ab56.css.map": "/rashmisudarshan.github.io/static/css/main.c365ab56.css.map",
-    "main.e554785c.js.map": "/rashmisudarshan.github.io/static/js/main.e554785c.js.map"
+    "main.css": "/static/css/main.0f0360f8.css",
+    "main.js": "/static/js/main.e59559d6.js",
+    "static/media/BG-Effect.png": "/static/media/BG-Effect.bf395e03c1838c306a34.png",
+    "static/media/projects.svg": "/static/media/projects.34bf87d206ef0aa50e8ef386638a0eb1.svg",
+    "static/media/reviews.svg": "/static/media/reviews.347067bcb901829c2843b0eed5cf3898.svg",
+    "static/media/gallery.svg": "/static/media/gallery.4b2e26b4f738b880fd73f33850888243.svg",
+    "index.html": "/index.html",
+    "main.0f0360f8.css.map": "/static/css/main.0f0360f8.css.map",
+    "main.e59559d6.js.map": "/static/js/main.e59559d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.c365ab56.css",
-    "static/js/main.e554785c.js"
+    "static/css/main.0f0360f8.css",
+    "static/js/main.e59559d6.js"
   ]
 }
