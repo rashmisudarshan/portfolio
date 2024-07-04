@@ -1,18 +1,24 @@
+/* @font-face rule to import Montserrat font */
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./fonts/Montserrat-Regular.ttf') format('truetype');
+  /* Add additional font weights and styles if needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat-Bold';
+  src: url('./fonts/Montserrat-SemiBold.ttf') format('truetype');
+  /* Add additional font weights and styles if needed */
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
-}
-
-/* @font-face rule to import Montserrat font */
-@font-face {
-  font-family: 'Montserrat';
-  src: url('./fonts/Montserrat-Bold.ttf') format('truetype'),
-       url('./fonts/Montserrat-SemiBold.ttf') format('truetype');
-  /* Add additional font weights and styles if needed */
-  font-weight: normal;
-  font-style: normal;
 }
 
 .desktop {
@@ -104,7 +110,7 @@ body {
 
 .desktop .div {
   color: #8cd89a;
-  font-family: "Montserrat-SemiBold", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
@@ -136,7 +142,7 @@ body {
 
 .desktop .text-wrapper-2 {
   color: #003851;
-  font-family: "Montserrat-SemiBold", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-size: 20.5px;
   font-weight: 600;
   line-height: 30.8px;
@@ -144,7 +150,7 @@ body {
 
 .desktop .text-wrapper-3 {
   color: #eae4d7;
-  font-family: "Montserrat-SemiBold", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-size: 20.5px;
   font-weight: 600;
   height: 21px;
@@ -173,7 +179,7 @@ body {
 
 .desktop .text-wrapper-5 {
   color: #eae4d7;
-  font-family: "Montserrat-Regular", Helvetica;
+  font-family: "Montserrat", Helvetica;
   font-size: 13px;
   font-weight: 400;
   position: absolute;
