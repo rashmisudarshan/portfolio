@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    background: transparent;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: fixed; /* Fix the navbar to the top of the screen */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure the navbar is above other content */
+    padding-top: 50px;
+}
+
+.navbar-logo {
+    height: 50px; /* Adjust as needed */
+    width: auto;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center items vertically */
+    height: 100%;
+    width: 100%;
+    max-width: 1200px; /* Optional: limit max width for better readability */
+    padding: 0 20px;
+}
+
+.navbar-buttons {
+    display: flex;
+    gap: 10px; /* Space between the buttons */
+}
+
+.nav-links {
+    color: #eae4d7;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    cursor: pointer;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.nav-links:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Slight background on hover */
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0; /* Remove margin to align with About button */
+    background-color: #ddf482; /* Button color */
+    color: #003851;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat-Bold';
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #ddf482; /* Button color on hover */
+}
+
+.menu-icon {
+    display: none;
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.nav-item {
+    height: 60px;
+}
+
+@media screen and (max-width: 960px) {
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 50%);
+        cursor: pointer;
+    }
+
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: calc(100vh - 60px); /* Adjust height considering the navbar height */
+        position: absolute;
+        top: 60px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+        background: #333;
+    }
+
+    .nav-menu.active {
+        left: 0;
+        opacity: 1;
+        z-index: 1;
+    }
+
+    .nav-item {
+        height: 80px;
+    }
+
+    .nav-links {
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+    }
+
+    .nav-links:hover {
+        border: none;
+    }
+}
