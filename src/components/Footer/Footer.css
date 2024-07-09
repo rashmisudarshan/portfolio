@@ -1,0 +1,16 @@
+.footer {
+    background-color: transparent;
+    color: #eae4d7;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .heart {
+    color: #ddf482;
+  }
+  

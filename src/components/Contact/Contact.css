@@ -4,8 +4,31 @@ html, body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.contact-container {
+.desktop {
     background-color: #003851;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make sure desktop takes up the full viewport height */
+  }
+  
+  /* Ensure overlap-group fills the desktop */
+  .desktop .overlap-group {
+    background-image: url(../../BG-Effect.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    text-align: center; /* Center the text horizontally */
+  }
+
+.contact-container {
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -6,6 +6,8 @@ import { FaGithub, FaLinkedin, FaInstagram, FaGoodreads, FaDeviantart, FaEnvelop
 
 const Contact = () => {
   return (
+    <div className="desktop">
+    <div className="overlap-group">
     <div className="contact-container">
       <div className="contact-card">
         <img src={logo} alt="Logo" className="contact-logo" />
@@ -37,6 +39,8 @@ const Contact = () => {
           </div>
         </div>
       </div>
+    </div>
+    </div>
     </div>
   );
 };
