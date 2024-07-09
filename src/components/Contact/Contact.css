@@ -1,0 +1,62 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact-container {
+    background-color: #003851;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.contact-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.contact-name {
+    color: #eae4d7;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-icon {
+    color: #eae4d7;
+    margin-right: 10px;
+}
+
+.contact-item a {
+    color: #eae4d7;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.contact-item a:hover {
+    color: #ddf482;
+}
