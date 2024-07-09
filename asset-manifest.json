@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bd74859b.css",
-    "main.js": "/static/js/main.dc307b03.js",
+    "main.css": "/static/css/main.9d613114.css",
+    "main.js": "/static/js/main.a6254463.js",
     "static/media/BG-Effect.png": "/static/media/BG-Effect.bf395e03c1838c306a34.png",
     "static/media/Profile_Picture.svg": "/static/media/Profile_Picture.9403375841f99cf38dd2c585a52d4cb0.svg",
     "static/media/Montserrat-SemiBold.ttf": "/static/media/Montserrat-SemiBold.93b37a465fc4ec0d0415.ttf",
@@ -12,11 +12,11 @@
     "static/media/logo_no_name.svg": "/static/media/logo_no_name.22437869f8eed96085d54d726b55a011.svg",
     "static/media/gallery.svg": "/static/media/gallery.4b2e26b4f738b880fd73f33850888243.svg",
     "index.html": "/index.html",
-    "main.bd74859b.css.map": "/static/css/main.bd74859b.css.map",
-    "main.dc307b03.js.map": "/static/js/main.dc307b03.js.map"
+    "main.9d613114.css.map": "/static/css/main.9d613114.css.map",
+    "main.a6254463.js.map": "/static/js/main.a6254463.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd74859b.css",
-    "static/js/main.dc307b03.js"
+    "static/css/main.9d613114.css",
+    "static/js/main.a6254463.js"
   ]
 }
