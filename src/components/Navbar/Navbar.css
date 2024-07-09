@@ -76,13 +76,14 @@ body {
 }
 
 .contact-button:hover {
-    background-color: #ddf482; /* Button color on hover */
+    background-color: #cce977; /* Button color on hover */
 }
 
 .menu-icon {
     display: none;
     color: #fff;
     font-size: 1.8rem;
+    cursor: pointer;
 }
 
 .nav-menu {
@@ -101,7 +102,7 @@ body {
         display: block;
         position: absolute;
         top: 0;
-        right: 0;
+        right: 20px;
         transform: translate(-100%, 50%);
         cursor: pointer;
     }
@@ -126,17 +127,24 @@ body {
     }
 
     .nav-item {
-        height: 80px;
+        height: auto;
     }
 
     .nav-links {
         text-align: center;
-        padding: 2rem;
+        padding: 1.5rem;
         width: 100%;
-        display: table;
+        display: block;
     }
 
     .nav-links:hover {
-        border: none;
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .contact-button {
+        width: 100%;
+        text-align: center;
+        padding: 1.5rem;
+        border-radius: 10px;
     }
 }

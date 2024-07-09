@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif; /* Specify Montserrat as the default font */
+  }
+
+  .desktop {
+    background-color: #003851;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make sure desktop takes up the full viewport height */
+  }
+  
+  /* Ensure overlap-group fills the desktop */
+  .desktop .overlap-group {
+    background-image: url(../../BG-Effect.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    text-align: center; /* Center the text horizontally */
+  }
+
+  .profile-image {
+    width: 200px; /* Adjust the size as needed */
+    height: 200px;
+    border-radius: 50%; /* Make the image circular */
+    margin-bottom: 20px; /* Space between the image and text */
+}
+
+.text-container {
+    max-width: 600px; /* Optional: limit max width for better readability */
+}
+
+
+.heading {
+    color: #eae4d7;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.paragraph {
+    color: #eae4d7;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
