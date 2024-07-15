@@ -1,0 +1,23 @@
+.project-detail-page {
+    background-color: #003851;
+    color: #eae4d7;
+    min-height: 100vh;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .project-detail-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit; /* Use the same color as the text */
+  }
+  
+  a:visited {
+    text-decoration: none;
+     /* Ensure visited links have the same color as the text */
+  }
+  

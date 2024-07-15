@@ -1,0 +1,45 @@
+.projects-page {
+  background-color: #003851;
+  color: #eae4d7;
+  min-height: 100vh;
+  padding: 20px;
+  padding-top: 120px; /* Adjust this value according to the height of your navbar */
+  font-family: 'Montserrat', sans-serif;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.projects-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 0 20px; /* Add padding on the sides for margin */
+}
+
+.project-card {
+  background: #eae4d7;
+  color: #003851;
+  padding: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+  margin: 10px; /* Add margin around the card */
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+a {
+  text-decoration: none;
+
+}
+
+a:visited {
+  text-decoration: none;
+  
+}

@@ -50,25 +50,7 @@ body {
   background-size: cover; /* Standard */
 }
 
-.desktop .cards {
-  height: 298px;
-  left: 278px;
-  position: absolute;
-  top: 333px;
-  width: 886px;
-}
 
-.desktop .element-card,
-.desktop .element-card-2,
-.desktop .element-card-3 {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  position: absolute;
-  top: 0;
-  width: 232px;
-}
 
 .desktop .element-card {
   left: 654px;

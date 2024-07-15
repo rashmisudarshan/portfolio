@@ -30,6 +30,8 @@
     justify-content: center;
     align-items: center;
     height: 100vh; /* Make sure desktop takes up the full viewport height */
+    box-sizing: border-box;
+    
   }
   
   /* Ensure overlap-group fills the desktop */
@@ -47,13 +49,15 @@
   }
   
   .desktop .cards {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: center;
     align-items: center;
     height: 298px;
     width: 100%;
     max-width: 1200px; /* Adjust max-width as needed */
     padding: 20px; /* Adjust padding as needed */
+    justify-items: center;
   }
   
   .desktop .element-card,
@@ -133,3 +137,14 @@
     width: 54px;
     object-fit: cover; /* Ensure logo fits correctly */
   }
+
+  /* Prevent purple underline on visited links */
+a {
+  text-decoration: none;
+  color: inherit; /* Use the same color as the text */
+}
+
+a:visited {
+  text-decoration: none;
+   /* Ensure visited links have the same color as the text */
+}

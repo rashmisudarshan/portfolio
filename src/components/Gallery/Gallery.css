@@ -1,0 +1,62 @@
+.art-gallery-page {
+  background-color: #003851;
+  color: #eae4d7;
+  min-height: 100vh;
+  padding: 20px;
+  padding-top: 80px; /* Adjust this value according to the height of your navbar */
+  padding-left: 150px;  /* Add padding to the left */
+  padding-right: 150px; /* Add padding to the right */
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+
+.art-gallery-container {
+  background-color: #003851;
+  color: #eae4d7;
+  width: 100%;
+  max-width: 1200px; /* Adjust max-width as needed */
+  padding: 20px;
+  overflow-y: scroll; /* Enable vertical scrolling */
+  box-sizing: border-box;
+  border-radius: 10px; /* Optional: Add border-radius for better aesthetics */
+}
+
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.art-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust min-width and make columns more responsive */
+  gap: 20px;
+  padding: 0 20px; /* Add padding on the sides for margin */
+}
+
+.art-card {
+  background: #eae4d7;
+  color: #003851;
+  padding: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.art-card:hover {
+  transform: translateY(-5px);
+}
+
+.art-image {
+  width: 100%;
+  height: 300px; /* Ensure all images have a uniform height */
+  border-radius: 10px;
+  object-fit: cover; /* Ensures the image covers the area and maintains aspect ratio */
+}
+
+.art-title {
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}

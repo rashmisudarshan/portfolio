@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import reviews from '../../reviews.svg'; // Update the path as needed
 import gallery from '../../gallery.svg'; // Update the path as needed
 import projects from '../../projects.svg'; // Update the path as needed
@@ -9,13 +10,16 @@ const HomePage = () => {
     <div className="desktop">
     <div className="overlap-group">
     <div className="cards">
-      <div className="element-card">
-        <img className="graphic" alt="Graphic" src={reviews} />
+    <div className="element-card-3">
+    <Link to="/projects">
+        <img className="graphic" alt="Graphic" src={projects} />
         <div className="copy">
-          <div className="text-wrapper">BOOK REVIEWS</div>
-          <div className="div">ANALYSES & OPINIONS</div>
+          <div className="text-wrapper">PROJECTS</div>
+          <div className="div">CODING APPLICATIONS</div>
         </div>
+        </Link>
       </div>
+      <Link to="/art-gallery">
       <div className="element-card-2">
         <img className="graphic" alt="Graphic" src={gallery} />
         <div className="copy">
@@ -23,13 +27,16 @@ const HomePage = () => {
           <div className="div">ORIGINAL ARTWORK</div>
         </div>
       </div>
-      <div className="element-card-3">
-        <img className="graphic" alt="Graphic" src={projects} />
+      </Link>
+
+      <div className="element-card">
+        <img className="graphic" alt="Graphic" src={reviews} />
         <div className="copy">
-          <div className="text-wrapper">PROJECTS</div>
-          <div className="div">CODING APPLICATIONS</div>
+          <div className="text-wrapper">BOOK REVIEWS</div>
+          <div className="div">ANALYSES & OPINIONS</div>
         </div>
       </div>
+      
     </div>
     </div>
     </div>
