@@ -1,24 +1,62 @@
-.art-detail-page {
-    background-color: #003851;
-    color: #eae4d7;
-    min-height: 100vh;
-    padding: 20px;
-    font-family: 'Montserrat', sans-serif;
-  }
+.art-details-page {
+  background-color: #003851;
+  color: #eae4d7;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.art-details-container {
+  text-align: center;
+}
+
+.art-frame {
+  display: inline-block;
+  padding: 20px;
+  border: 5px solid #eae4d7;
+  background-color: #eae4d7;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; /* Add space between the image and the card */
+}
+
+.art-image {
   
-  .art-detail-page h1 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .art-detail-image {
-    width: 100%;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 20px;
-  }
-  
-  .art-detail-page p {
-    font-size: 1.2em;
-  }
-  
+  height: 300px;
+  width: 100%;  
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.art-info-card {
+  background-color: #eae4d7;
+  color: #003851;
+  padding: 15px; /* Reduce padding to make the card smaller */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px; /* Reduce the maximum width of the card */
+  margin: 0 auto;
+}
+
+.art-title {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.art-medium {
+  margin-top: 10px;
+  font-size: 1em;
+  font-style: italic;
+}
+
+.art-description {
+  margin-top: 20px;
+  color: #eae4d7;
+  max-width: 800px;
+  margin: 20px auto 0; /* Adjusting margin to create space above */
+  font-size: 1em;
+}

@@ -1,3 +1,11 @@
+/* Gallery.css */
+
+body, html, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 .art-gallery-page {
   background-color: #003851;
   color: #eae4d7;
@@ -8,6 +16,9 @@
   padding-right: 150px; /* Add padding to the right */
   font-family: 'Montserrat', sans-serif;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .art-gallery-container {
@@ -16,11 +27,11 @@
   width: 100%;
   max-width: 1200px; /* Adjust max-width as needed */
   padding: 20px;
-  overflow-y: scroll; /* Enable vertical scrolling */
+  overflow-y: auto; /* Enable vertical scrolling */
   box-sizing: border-box;
   border-radius: 10px; /* Optional: Add border-radius for better aesthetics */
+  flex: 1;
 }
-
 
 .heading {
   text-align: center;
