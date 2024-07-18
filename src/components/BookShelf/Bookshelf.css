@@ -1,0 +1,64 @@
+/* src/components/Bookshelf/Bookshelf.css */
+
+.bookshelf-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #003851;
+  color: #eae4d7;
+  min-height: 100vh;
+  padding: 20px;
+  padding-top: 120px; /* Adjust this value according to the height of your navbar */
+  padding-left: 150px;  /* Add padding to the left */
+  padding-right: 150px; /* Add padding to the right */
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bookshelf-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.book-card {
+    height: 400px;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    background-color: #eae4d7;
+}
+
+.book-card:hover {
+    transform: scale(1.05);
+}
+
+.book-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.book-card h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.book-card p {
+    margin: 5px 0;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.book-card-link {
+    text-decoration: none;
+    color: inherit;
+}

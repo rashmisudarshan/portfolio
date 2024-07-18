@@ -1,0 +1,84 @@
+/* src/components/BookDetail/BookDetail.css */
+
+.book-detail-container {
+    background-color: #003851;
+    color: #eae4d7;
+    min-height: 100vh;
+    padding: 20px;
+    padding-top: 120px; /* Adjust this value according to the height of your navbar */
+    padding-left: 150px;  /* Add padding to the left */
+    padding-right: 150px; /* Add padding to the right */
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book-detail-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+}
+
+.left-column, .right-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left-column {
+    flex: 1;
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+.right-column {
+    flex: 2;
+    margin-left: 20px;
+}
+
+.book-detail-container img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.book-detail-container h2 {
+    font-size: 2em;
+    margin: 10px 0;
+    color: #eae4d7;
+    text-align: center;
+}
+
+.book-detail-container h3 {
+    font-size: 1.5em;
+    margin: 5px 0;
+    color: #eae4d7;
+}
+
+.book-detail-container p {
+    font-size: 1em;
+    color: #eae4d7;
+    margin: 10px 0;
+}
+
+.book-detail-container a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #eae4d7;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.book-detail-container a:hover {
+    background-color: #0056b3;
+}

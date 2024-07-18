@@ -28,7 +28,7 @@ const HomePage = () => {
         </div>
       </div>
       </Link>
-
+    <Link to="/books">
       <div className="element-card">
         <img className="graphic" alt="Graphic" src={reviews} />
         <div className="copy">
@@ -36,7 +36,7 @@ const HomePage = () => {
           <div className="div">ANALYSES & OPINIONS</div>
         </div>
       </div>
-      
+      </Link>
     </div>
     </div>
     </div>
