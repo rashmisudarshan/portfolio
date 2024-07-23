@@ -66,11 +66,15 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
+    justify-content: flex-start;
 }
 
 .contact-icon {
     color: #eae4d7;
     margin-right: 10px;
+    justify-content: flex-start;
+    margin-top: 20px;
+    
 }
 
 .contact-item a {
